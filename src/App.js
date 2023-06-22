@@ -6,7 +6,7 @@ import styles from './App.css';
 const App = () => {
   return (
     <div className="todo-app">
-      <TodoList/>
+      <TodoList />
     </div>
   );
 }

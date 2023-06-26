@@ -63,6 +63,11 @@ h1 {
   color: #fff;
   text-transform: capitalize;
   margin-left:5px;
+  box-shadow: 5px 5px 3px black;
+}
+
+.todo-button:active {
+  transform: scale(0.95)
 }
 
 .todo-input.edit {
@@ -95,7 +100,7 @@ h1 {
   padding: 16px;
   border-radius: 5px;
   width: 90%;
-  box-shadow: 2px 2px 3px grey;
+  box-shadow: 5px 5px 3px black;
 }
 
 .todo-row:nth-child(4n + 1) {
@@ -123,12 +128,21 @@ h1 {
   cursor: pointer;
 }
 
+.edit-icon {
+  color: #fff;
+}
+
+.edit-icon:active {
+  transform: scale(0.8)
+}
+
 .delete-icon {
   margin-right: 5px;
   color: #fff;
   margin-left: 5px;
 }
 
-.edit-icon {
-  color: #fff;
+.delete-icon:active {
+  transform: scale(0.8)
 }
+
